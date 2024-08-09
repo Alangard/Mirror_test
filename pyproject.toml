@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mirror-test"
+version = "0.1.0"
+description = ""
+authors = ["Alangard <73427768+Alangard@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.0"
+alembic = "^1.13.2"
+uvicorn = "^0.30.5"
+pydantic = "^2.8.2"
+SQLAlchemy = "^2.0.32"
+pydantic-settings = "^2.4.0"
+asyncpg = "^0.29.0"
+pytest = "^8.3.2"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
